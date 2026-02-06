@@ -1,0 +1,15 @@
+{
+  "frontend/src/App.tsx": "Main application component that sets up theme provider, query client, and renders the header, main content area with FileTransferApp, footer, and toast notifications.",
+  "frontend/src/components/Header.tsx": "Application header with branding (P2P Share logo and title) and theme toggle button for switching between light and dark modes.",
+  "frontend/src/components/Footer.tsx": "Footer component displaying copyright notice and attribution link to caffeine.ai with a heart icon.",
+  "frontend/src/components/FileTransferApp.tsx": "Main file transfer interface with tabbed navigation for connecting to peers, sending files, receiving files, and viewing transfer history.",
+  "frontend/src/components/ConnectionManager.tsx": "Manages WebRTC peer connections with UI for creating connection offers, accepting offers from other devices, and displaying connection status.",
+  "frontend/src/components/FileSender.tsx": "File selection and sending interface with drag-and-drop support, file list display, and real-time progress tracking for outgoing transfers with proper null-safe handling of sentBytes.",
+  "frontend/src/components/FileReceiver.tsx": "Handles incoming file requests with accept/reject options, displays active download progress, and shows completed file transfers with proper null-safe handling of receivedBytes.",
+  "frontend/src/components/TransferHistory.tsx": "Displays a scrollable list of past file transfers with details including file name, size, peer name, transfer type (sent/received), and timestamp.",
+  "frontend/src/hooks/useWebRTC.ts": "Core WebRTC implementation hook managing peer connections, data channels, file chunking, transfer progress tracking, and all P2P communication logic.",
+  "frontend/src/hooks/useTransferHistory.ts": "Custom hook for managing transfer history with localStorage persistence, supporting add and clear operations with a maximum of 50 items.",
+  "frontend/src/hooks/useQueries.ts": "Minimal placeholder file as the P2P app operates entirely client-side without backend queries.",
+  "frontend/src/lib/utils.ts": "Utility functions including cn for className merging and formatFileSize for human-readable file size formatting.",
+  "frontend/src/index.css": "Global styles with OKLCH color system defining a purple/blue themed design with comprehensive light and dark mode support."
+}
